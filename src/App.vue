@@ -1,11 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <div class="container bg-dark">
-      <nav class="navbar navbar-expand-sm justify-content-sm-center">
+    <div class="nav-bg">
+      <nav class="navbar navbar-expand-sm justify-content-sm-center wrapper-width">
+        <a class="navbar-brand">
+          <img src="/img/images/fmaf-logo.png" width="30" height="30" alt />
+        </a>
         <div class="cross-btn-container">
           <button
             class="navbar-toggler navbar-toggler-right collapsed"
@@ -20,13 +19,15 @@
         </div>
         <div class="collapse navbar-collapse" id="collapsableNavbar">
           <div class="navbar-nav text-center">
-            <router-link to="/">Home</router-link>|
-            <router-link to="/about">About</router-link>
+            <router-link to="/">About me</router-link>
+            <router-link to="/about">Experience</router-link>
           </div>
         </div>
       </nav>
     </div>
-    <router-view />
+    <div class="wrapper-width py-5">
+      <router-view />
+    </div>
   </div>
 </template>
 

@@ -1,21 +1,56 @@
 $primary-color: #2c3e50;
 $secondary-color: #42b983;
+$primary-color-faded: #486787;
+$secondary-color-faded: #52d99c;
+$light-secondary: #d9f1e6;
+
+@font-face {
+  font-family: AvenirMedium;
+  src: url("../public/fonts/AvenirLTStd-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AvenirBlack;
+  src: url("../public/fonts/AvenirLTStd-Black.otf") format("opentype");
+}
+
+.avenir-black {
+  font-family: AvenirBlack !important;
+}
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: AvenirMedium;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: $primary-color;
 }
 
-#nav {
+.wrapper-width {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+
+.nav-bg{
+  background-color: $light-secondary;
+  border-bottom: 3px solid $secondary-color;
+}
+nav {
   padding: 30px;
   a {
     font-weight: bold;
     color: $primary-color;
+    text-decoration: none !important;
+    padding: 0 10px;
     &.router-link-exact-active {
       color: $secondary-color;
+      &:hover {
+        color: $secondary-color-faded;
+      }
+    }
+    &:hover {
+      color: $primary-color-faded;
     }
   }
 }
@@ -60,7 +95,7 @@ $secondary-color: #42b983;
     }
     span {
       display: block;
-      background-color: white;
+      background-color: $primary-color;
       height: 2px;
       width: 25px;
       margin-top: 4px;
