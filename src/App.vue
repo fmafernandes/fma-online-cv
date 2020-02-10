@@ -21,6 +21,7 @@
           <div class="navbar-nav text-center">
             <router-link to="/about">About me</router-link>
             <router-link to="/experience">Experience</router-link>
+            <router-link to="/projects">Projects</router-link>
           </div>
         </div>
       </nav>
