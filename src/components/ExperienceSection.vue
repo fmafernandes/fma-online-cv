@@ -46,9 +46,9 @@ $light-secondary: #d9f1e6
   .card
     background-color: $light-secondary
     padding: 25px 18px
-  .type
-    font-size: 1rem
-  .institution
-    color: $secondary-color
-    font-family: AvenirBlack
+    .type
+      font-size: 1rem
+    .institution
+      color: $secondary-color
+      font-family: AvenirBlack
 </style>

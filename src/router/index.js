@@ -2,13 +2,15 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Experience from '../views/Experience.vue'
 import Projects from '../views/Projects.vue'
+import Home from '../views/Home.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: "/",
-    redirect: "/about"
+    name: 'Home',
+    component: Home
   },
   {
     path: '/projects',

@@ -2,9 +2,11 @@
   <div id="app">
     <div class="nav-bg">
       <nav class="navbar navbar-expand-sm justify-content-sm-center wrapper-width">
-        <a class="navbar-brand">
-          <img src="/img/images/fmaf-logo.png" width="30" height="30" alt />
-        </a>
+        <div class="navbar-brand">
+          <router-link to="/">
+            <img src="/img/images/fmaf-logo.png" width="30" height="30" alt />
+          </router-link>
+        </div>
         <div class="cross-btn-container">
           <button
             class="navbar-toggler navbar-toggler-right collapsed"
@@ -26,7 +28,7 @@
         </div>
       </nav>
     </div>
-    <div class="wrapper-width py-5">
+    <div class="wrapper-width py-3">
       <transition name="fade">
         <router-view />
       </transition>

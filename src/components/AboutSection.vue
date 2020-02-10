@@ -31,8 +31,8 @@ $light-secondary: #d9f1e6
   .card
     background-color: $light-secondary
     padding: 25px 18px
-  .title
-    color: $secondary-color
-  .subtitle, .title
-    font-family: AvenirBlack
+    .title
+      color: $secondary-color
+    .subtitle, .title
+      font-family: AvenirBlack
 </style>
