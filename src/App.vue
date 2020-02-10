@@ -19,14 +19,16 @@
         </div>
         <div class="collapse navbar-collapse" id="collapsableNavbar">
           <div class="navbar-nav text-center">
-            <router-link to="/">About me</router-link>
-            <router-link to="/about">Experience</router-link>
+            <router-link to="/about">About me</router-link>
+            <router-link to="/experience">Experience</router-link>
           </div>
         </div>
       </nav>
     </div>
     <div class="wrapper-width py-5">
-      <router-view />
+      <transition name="fade">
+        <router-view />
+      </transition>
     </div>
   </div>
 </template>

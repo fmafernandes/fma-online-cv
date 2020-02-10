@@ -31,8 +31,7 @@ $light-secondary: #d9f1e6;
   max-width: 1240px;
 }
 
-
-.nav-bg{
+.nav-bg {
   background-color: $light-secondary;
   border-bottom: 3px solid $secondary-color;
 }
@@ -115,5 +114,34 @@ nav {
         transition: transform 0.35s ease-in-out;
       }
     }
+  }
+}
+
+.fade-enter-active {
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-leave-active {
+  animation: fadeOut 0.1s ease-in;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
   }
 }
