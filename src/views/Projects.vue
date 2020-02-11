@@ -18,19 +18,19 @@ export default {
       projectsData: [
         {
           title: "Super Cool Project",
-          image: "/img/images/logo.png",
+          image: require("../assets/logo.png"),
           description:
             "This super cool project was projected to be very cool and awesome"
         },
         {
           title: "Amazing Project",
-          image: "/img/images/logo.png",
+          image: require("../assets/logo.png"),
           description:
             "This amazing project was projected to be amazingly awesome"
         },
         {
           title: "Incredible Project",
-          image: "/img/images/logo.png",
+          image: require("../assets/logo.png"),
           description:
             "This incredible project was projected to be incredibly awesome"
         }

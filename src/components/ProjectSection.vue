@@ -3,7 +3,7 @@
     <div class="card">
       <h2 class="title">{{ projectsItem.title }}</h2>
       <div>
-        <img alt class="img-fluid" v-bind:src="projectsItem.image" />
+        <img alt class="img-fluid" :src="projectsItem.image" />
       </div>
       <div>{{ projectsItem.description }}</div>
     </div>

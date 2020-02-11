@@ -21,9 +21,9 @@ export default {
         name: "Francisco Fernandes",
         position: "Front-end Developer",
         social: {
-          email: "francisco@email.com",
-          linkedin: "lk.com/francisco",
-          github: "github.com/francisco"
+          email: "fmaf.fernandes@gmail.com",
+          linkedin: "linkedin.com/in/francisco-fernandes-3093b1198/",
+          github: "github.com/fmafernandes"
         }
       }
     };

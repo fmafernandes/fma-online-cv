@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-sm justify-content-sm-center wrapper-width">
         <div class="navbar-brand">
           <router-link to="/">
-            <img src="/img/images/fmaf-logo.png" width="30" height="30" alt />
+            <img :src="logo" width="30" height="30" alt />
           </router-link>
         </div>
         <div class="cross-btn-container">
@@ -35,6 +35,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      logo: require("./assets/fmaf-logo.png")
+    };
+  }
+};
+</script>
 
 <style lang='scss'>
 @import "./styles.scss";
