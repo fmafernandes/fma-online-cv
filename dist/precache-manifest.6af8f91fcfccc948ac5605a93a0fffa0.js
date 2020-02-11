@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fma-online-cv/css/about.dff5017f.css"
   },
   {
-    "revision": "a25f6561e6cc8f5040e7",
+    "revision": "e8caa267f0fe490df68a",
     "url": "/fma-online-cv/css/app.c2d07701.css"
   },
   {
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fma-online-cv/img/images/logo.png"
   },
   {
-    "revision": "1548a3219445628bed8a0a6c49bcc6e3",
+    "revision": "9f660aa6810b0eb8880ec7c45862dc02",
     "url": "/fma-online-cv/index.html"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fma-online-cv/js/about.51641e60.js"
   },
   {
-    "revision": "a25f6561e6cc8f5040e7",
-    "url": "/fma-online-cv/js/app.6eb51b6a.js"
+    "revision": "e8caa267f0fe490df68a",
+    "url": "/fma-online-cv/js/app.b630ab53.js"
   },
   {
     "revision": "be38c2932fd4e8dbcb32",
