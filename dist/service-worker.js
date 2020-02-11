@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.65e607db05544f5ced8e3e99ab09fe72.js"
+  "fma-online-cv/precache-manifest.cca2ba18003181307f053d05a2fc2f67.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "fma-online-cv"});
